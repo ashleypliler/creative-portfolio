@@ -7,12 +7,20 @@
     margin: 30px;
 }
 
-
+.portfolio {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 30px;
+}
 
 .container img {
    max-width: 100%;
    height: auto;
    justify-content: center;
-   padding: 20px;
+   padding: 10px;
+}
+
+.hatImg {
+
 }
 
