@@ -1,0 +1,23 @@
+.background_img {
+    background: url('../../images/ash.JPG') no-repeat center/cover ;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    font-size: 25px;
+    font-family:'Restora';
+    padding: 20px;
+    color:  #f6F4F1;
+}
+
+.text {
+    background-color: #f6F4F1;
+    opacity: 80%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    top: 600px;
+}
