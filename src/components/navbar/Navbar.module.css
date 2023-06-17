@@ -9,21 +9,19 @@
     background-color: white;
 }
 
-.logo {
-    font-size: 33px;
-    color:#423E3A ;
-}
+
 .menu {
     display: flex;
     align-items: center;
 }
 
 .menu li {
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .navbar a {
-    font-size: .9rem;
+    font-size: 1rem;
+    color: black;
 }
 
 .mobile_btn {

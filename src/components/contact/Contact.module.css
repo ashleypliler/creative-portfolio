@@ -1,0 +1,51 @@
+.container {
+    background: url('../../images/ash3.JPG') no-repeat center/cover ;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    font-size: 25px;
+    font-family:'Restora';
+    padding: 20px;
+    color:  #f6F4F1;
+    opacity: 80%;
+    justify-content: space-around;
+}
+
+.icons {
+    height: 70px;
+    width: 70px;
+    color: white;
+    margin-top: 200px;
+
+}
+
+.text{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    font-family: 'Restora';
+    top: 590px;
+    font-size: 20px;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width: 720px) {
+   .icons{
+    height: 50px;
+    width: 50px;
+    margin-top:220px;
+   }
+
+   .text {
+    text-align: center;
+   }
+
+}
+
+
+
+

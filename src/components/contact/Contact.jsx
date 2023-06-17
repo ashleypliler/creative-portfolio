@@ -1,25 +1,40 @@
-import React from 'react'
-import styles from './Contact.module.css'
+import React from "react";
+import styles from "./Contact.module.css";
+import img from "../../images/ash3.JPG";
+import ButtonMailto from "../email/Email";
+import {
+  AiOutlineMail,
+  AiOutlineInstagram,
+  AiFillLinkedin,
+} from "react-icons/ai";
 
 export const Contact = () => {
   return (
-    <div className={styles.container}>
-        <form className={styles.contactForm}>
-            <input id={"first-name"} type="text" placeholder="ENTER YOUR FIRST NAME"/><br/>
-            <input id="last-name" type="text" placeholder="ENTER YOUR LAST NAME"/><br/>
-            <input id="email" type="email" placeholder="ENTER YOUR EMAIL"/><br/>
-            <input id="phone-number" type="text" placeholder="ENTER YOUR PHONE NUMBER"/><br/>
-            <select id="pick-session">
-                <option value="" disabled selected>CHOOSE SESSION TYPE</option>
-                <option value="portrait">PORTRAIT</option>
-                <option value="couple">COUPLE</option>
-                <option value="family">FAMILY</option>
-                <option value="products">PRODUCTS</option>
-            </select><br/>
-            <input id="date" type="date"/><br/>
-            <input id="time" type="time"/><br/>
-            <button id="submit">SUBMIT</button>
-        </form>
+    <div>
+      <div className={styles.container}>
+        <div>
+          <ButtonMailto
+            className={styles.icons}
+            label={<AiOutlineMail className={styles.icons} />}
+            mailto="mailto:ashleypliler1@gmail.com"
+          ></ButtonMailto>
+        </div>
+        <div>
+          <a href="https://www.instagram.com/ashleypliler/?hl=en">
+            <AiOutlineInstagram
+              className={styles.icons}
+            ></AiOutlineInstagram>
+          </a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/ashley-pliler-862b5a193/">
+            <AiFillLinkedin className={styles.icons}></AiFillLinkedin>
+          </a>
+        </div>
+      </div>
+      <div className={styles.text}>
+        CONTACT ME HERE! LINKS TO MY EMAIL, INSTAGRAM, AND LINKEDIN :)
+      </div>
     </div>
-  )
-}
+  );
+};

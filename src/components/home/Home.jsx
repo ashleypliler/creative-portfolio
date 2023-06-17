@@ -11,8 +11,8 @@ export const Home = () => {
       <Skills/>
       <div className={styles.links}>
         <ul className={styles.icons}>
-            <a href="https://www.instagram.com/ashleypliler/?hl=en"><AiOutlineInstagram size={40}/></a>
-            <a href="https://www.linkedin.com/in/ashley-pliler-862b5a193/"><AiFillLinkedin size={40}/></a>   
+            <a className={styles.icons} href="https://www.instagram.com/ashleypliler/?hl=en"><AiOutlineInstagram size={40}/></a>
+            <a className={styles.icons} href="https://www.linkedin.com/in/ashley-pliler-862b5a193/"><AiFillLinkedin size={40}/></a>   
         </ul>
       </div>
     </div>
